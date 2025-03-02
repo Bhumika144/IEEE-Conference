@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - IEEE Conference</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #0047AB;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        header img {
+            height: 50px;
+            margin: 0 20px;
+        }
+        nav {
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        /* Section Header Styles */
+        .section-header {
+            text-align: center;
+            color: #0047AB;
+            font-weight: bold;
+            font-size: 28px;
+            margin-top: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-family: 'Times New Roman', serif; /* Updated to Times New Roman */
+        }
+
+        /* Contact Card Styles */
+        .contact-card {
+            border: 2px solid #0047AB;
+            padding: 20px;
+            margin: 20px auto;
+            text-align: left;
+            background: white;
+            border-radius: 10px;
+            width: 50%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-card h3 {
+            font-size: 24px;
+            color: #0047AB;
+            margin-bottom: 10px;
+        }
+        .contact-card p {
+            font-size: 18px;
+            color: #555;
+            margin: 10px 0;
+        }
+        .contact-card a {
+            color: #0047AB;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-card a:hover {
+            text-decoration: underline;
+        }
+
+        /* Contact Container Styles */
+        .contact-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .contact-container .contact-card {
+            width: 45%;
+            text-align: center;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #0047AB;
+            color: white;
+            margin-top: 40px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="ieee-logo.png" alt="IEEE Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="committee.html">Committee</a>
+            <a href="key-dates.html">Key Dates</a>
+            <a href="call-for-papers.html">Call for Papers</a>
+            <a href="registration.html">Registration</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="venue.html">Venue</a>
+        </nav>
+        <img src="svkm-logo.png" alt="SVKM Logo">
+    </header>
+
+    <!-- Contact Us Section -->
+    <section>
+        <h1 class="section-header">Contact Us</h1>
+        <p style="text-align: center; font-size: 18px; color: #555;">Get in touch with the MISSF 2026 organizing committee</p>
+        <p style="text-align: center; font-size: 18px; color: #555;">SVKM’s Institute of Technology, Dhule, Maharashtra, India</p>
+    </section>
+
+    <!-- Convenor -->
+    <section id="convenor">
+        <h2 class="section-header">Convenor</h2> <!-- Updated to Times New Roman -->
+        <div class="contact-card">
+            <h3>Dr. Namra Joshi</h3>
+            <p><strong>Designation:</strong> Associate Professor, Electrical Engineering Department</p>
+            <p><strong>SVKM’s Institute of Technology, Dhule</strong></p>
+            <p><strong>Phone:</strong> +91 9179119207</p>
+            <p><strong>Email:</strong> <a href="mailto:ieee.iot@svkm.ac.in">ieee.iot@svkm.ac.in</a></p>
+        </div>
+    </section>
+
+    <!-- Faculty Coordinators -->
+    <section id="faculty-coordinators">
+        <h2 class="section-header">Faculty Coordinators</h2> <!-- Updated to Times New Roman -->
+        <div class="contact-container">
+            <div class="contact-card">
+                <h3>Prof. Shahid A. Iqbal</h3>
+                <p><strong>Designation:</strong> Assistant Professor, Electrical Engineering Department</p>
+                <p><strong>Phone:</strong> +91 8669089696</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>Prof. Umakant Mandawkar</h3>
+                <p><strong>Designation:</strong> Assistant Professor, Computer Engineering Department</p>
+                <p><strong>Phone:</strong> +91 7219559399</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>Prof. Mangesh Balpande</h3>
+                <p><strong>Designation:</strong> Assistant Professor, Information Technology Department</p>
+                <p><strong>Phone:</strong> +91 9145551597</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 MISSF Conference | Organized by SVKM’s Institute of Technology, Dhule</p>
+    </footer>
+</body>
+</html>
